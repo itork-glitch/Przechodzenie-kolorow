@@ -1,5 +1,5 @@
 #include <Adafruit_NeoPixel.h>
-#include <config.h>
+#include <config.hpp>
 
 void setup()
 {
@@ -17,49 +17,49 @@ void color()
         for (int i = 0; i < NUM_PIXEL; i++) {
             strip.setPixelColor(i, strip.Color(255, 0, 0));
             strip.show();
-            delay(10);
+            delay(20);
         }
 
         for (int i = 0; i < NUM_PIXEL; i++) {
             strip.setPixelColor(i, strip.Color(255, 77, 0));
             strip.show();
-            delay(10);
+            delay(20);
         }
 
         for (int i = 0; i < NUM_PIXEL; i++) {
             strip.setPixelColor(i, strip.Color(255, 255, 0));
             strip.show();
-            delay(10);
+            delay(20);
         }
 
         for (int i = 0; i < NUM_PIXEL; i++) {
             strip.setPixelColor(i, strip.Color(0, 255, 0));
             strip.show();
-            delay(10);
+            delay(20);
         }
 
         for (int i = 0; i < NUM_PIXEL; i++) {
             strip.setPixelColor(i, strip.Color(0, 255, 255));
             strip.show();
-            delay(10);
+            delay(20);
         }
 
         for (int i = 0; i < NUM_PIXEL; i++) {
             strip.setPixelColor(i, strip.Color(0, 0, 255));
             strip.show();
-            delay(10);
+            delay(20);
         }
 
         for (int i = 0; i < NUM_PIXEL; i++) {
             strip.setPixelColor(i, strip.Color(144, 0, 255));
             strip.show();
-            delay(10);
+            delay(20);
         }
 
         for (int i = 0; i < NUM_PIXEL; i++) {
             strip.setPixelColor(i, strip.Color(255, 0, 77));
             strip.show();
-            delay(10);
+            delay(20);
         }
 
         elapsedTime = millis() - startTime;
